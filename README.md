@@ -3,6 +3,8 @@ Introduction
 The Invoice Reminder and Follow-up Automation project is an enterprise-grade SaaS solution designed to streamline the management of due invoices. Built using React, css, and Node.js, this application allows users to securely log in via Google OAuth, view detailed invoice information, and automatically trigger past-due invoice reminders and follow-up sequences through Zapier integration. The system is tailored to enhance operational efficiency by reducing manual tasks and ensuring timely communication with clients regarding outstanding invoices.
 
 **Key Features**
+
+
 **Google OAuth Authentication:**
 Secure and seamless login using Google accounts, ensuring that only authorized users access the platform.
 
@@ -17,4 +19,11 @@ A modern, responsive frontend built with React that offers a clear and intuitive
 
 **Scalable Microservices Architecture:**
 A robust backend developed with Node.js designed to handle the automation and integration processes efficiently, ensuring scalability as the business grows.
+
+**Technology Stack**
+**Frontend:** React.js, Next.js
+**Backend:** Node.js
+**Authentication:** Google OAuth
+**Automation:** Zapier integration
+**Version Control:** Git, GitHub
 
