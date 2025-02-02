@@ -26,18 +26,14 @@ A robust backend developed with Node.js designed to handle the automation and in
 React.js,css,and javascript
 
 **Backend:** 
-
 Node.js,Express js
 
 **Authentication:**
-
 Google OAuth
 
 **Automation:** 
-
 Zapier integration
 
 **Version Control:** 
-
 Git, GitHub
 
