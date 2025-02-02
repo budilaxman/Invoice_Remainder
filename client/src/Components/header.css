@@ -1,0 +1,158 @@
+/* Header */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+   
+  /* Navigation Bar */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+   
+  /* Logo */
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+   
+  /* Right Side (Time + Profile) */
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+   
+  /* Current Time */
+  .current-time {
+    font-size: 16px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+   
+  /* Profile Container */
+  .profile-container {
+    position: relative;
+    cursor: pointer;
+  }
+   
+  /* Profile Image */
+  .profile-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+    transition: 0.3s;
+  }
+   
+  .profile-img:hover {
+    opacity: 0.8;
+  }
+   
+  /* Dropdown Menu */
+  .dropdown-menu {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+   
+  /* Dropdown Item */
+  .dropdown-item {
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+   
+  /* Logout Button */
+  .logout-btn {
+    background: #dc3545;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+   
+  .logout-btn:hover {
+    background-color: #b52b3b;
+  }
+   
+  /* Login Link */
+  .login-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+   
+  .login-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+   
+  /* Dropdown Animation */
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+   
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    .nav-right {
+        flex-direction: column;
+        gap: 10px;
+    }
+   
+    .profile-img {
+        width: 50px;
+        height: 50px;
+    }
+   
+    .dropdown-menu {
+        width: 180px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  }
+   
