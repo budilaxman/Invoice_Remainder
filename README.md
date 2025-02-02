@@ -23,7 +23,6 @@ A robust backend developed with Node.js designed to handle the automation and in
 **Technology Stack**
 
 **Frontend:**
-
 React.js,css,and javascript
 
 **Backend:** 
