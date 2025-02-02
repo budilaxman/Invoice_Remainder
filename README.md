@@ -34,6 +34,9 @@ Google OAuth
 **Automation:** 
 Zapier integration
 
+**Database:** 
+Mongodb,Mongoose
+
 **Version Control:** 
 Git, GitHub
 
