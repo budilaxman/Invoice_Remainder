@@ -21,7 +21,9 @@ A modern, responsive frontend built with React that offers a clear and intuitive
 A robust backend developed with Node.js designed to handle the automation and integration processes efficiently, ensuring scalability as the business grows.
 
 **Technology Stack**
-**Frontend:** React.js, Next.js
+
+**Frontend:**
+React.js, Next.js
 **Backend:** Node.js
 **Authentication:** Google OAuth
 **Automation:** Zapier integration
