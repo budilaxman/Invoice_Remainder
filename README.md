@@ -23,13 +23,22 @@ A robust backend developed with Node.js designed to handle the automation and in
 **Technology Stack**
 
 **Frontend:**
-React.js, Next.js
+
+React.js,css,and javascript
+
 **Backend:** 
-Node.js
+
+Node.js,Express js
+
 **Authentication:**
+
 Google OAuth
+
 **Automation:** 
+
 Zapier integration
+
 **Version Control:** 
+
 Git, GitHub
 
