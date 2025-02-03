@@ -41,5 +41,5 @@ Mongodb,Mongoose
 Git, GitHub
 
 
-**NOTE**: Due to High volume of size i am not able to upload the videos(only frontend is uploaded) if required backendvideo i will send it.
+**NOTE**: Due to the large file size, I am unable to upload the videos (only the frontend has been uploaded). If the backend video is required, I will send it separately.
 
